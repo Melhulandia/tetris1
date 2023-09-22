@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Playfair+Display&family=Press+Start+2P&display=swap');
+body {
+    font-family: 'Gasoek One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(50,52,61,1) 0%, rgba(34,193,195,1) 36%, rgba(217,22,199,1) 78%) no-repeat;
+}
+.game-container {
+    border: 2px solid rgb(50,52,61);
+    width: 294px;
+    height: 584px;
+    background-color: #fff;
+}
+/*
+
+ /* Estilos para las celdas del tablero*/
+.cell {
+    width: 29px;
+    height: 29px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+.tetromino {
+    background-color: #aa1696;
+    border-color: #7fffd4;
+}
+
+.settled {
+    background-color: #40474b;
+}
+.credit {
+  margin: 5%;
+  height: 10%;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 3rem;
+    font-size: 1.75rem;
+    background-color:rgb(170, 22, 158) ;
+}
